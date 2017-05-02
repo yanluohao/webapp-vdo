@@ -62,14 +62,14 @@
                     </div>
                 </div>
             </div>
-            <v-foot></v-foot>
+            
         </div>
     </transition>
 </template>
 
 <script>
     import axios from "axios";
-    import footer from "../footer/footer.vue";
+    // import footer from "../footer/footer.vue";
 
     export default {
         props:{
@@ -161,7 +161,7 @@
             }
         },
         components:{
-            "v-foot":footer
+            // "v-foot":footer
         }
     }
 </script>
@@ -216,7 +216,9 @@
                         margin-left:10px
                         line-height:24px
                 .info-body
+                    position:relative
                     padding:10px 30px
+                    background:#f5f5f5
                     p
                         font-size:14px
                         font-weight:400
@@ -231,7 +233,9 @@
                 .avatar-box
                     padding:20px 30px
                     font-size:0
+                    background:#f5f5f5
                     .avatar-title
+                        font-size:16px
                         padding-left:5px
                     .ava_item
                         display:inline-block

@@ -18,4 +18,5 @@ export default {
         font-size:14px
         color:#ccc
         padding:20px 0
+        background:#f5f5f5
 </style>

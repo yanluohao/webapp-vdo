@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <index></index>
+    <search></search>
+    <v-foot></v-foot>
   </div>
 </template>
 
 <script>
 import index from './components/index/index.vue';
+import footer from "./components/footer/footer.vue";
+import search from './components/search/search';
 
 export default {
   name: 'app',
   components:{
-    index
+    index,
+    "v-foot":footer,
+    search
   }
 }
 </script>
