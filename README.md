@@ -2,20 +2,5 @@
 
 > A Vue.js project
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Tips
+切忌合理操作接口访问，由于过于频繁的调用豆瓣对外的接口，现如今我的IP已经被拉黑，只有隔不知道多久的时间才能勉强的访问。
