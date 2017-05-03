@@ -76,6 +76,7 @@ export default {
 <style lang="stylus">
     #index-body
         width:100%
+        overflow-x:hidden
         #hot-line
             position:absolute
             width:100%

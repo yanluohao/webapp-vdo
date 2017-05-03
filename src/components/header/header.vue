@@ -9,7 +9,9 @@
                 </div>
                 <div class="title">电影</div>
                 <div class="right">
-                    <img src="./search.png" alt="">
+                    <router-link to="/search">
+                        <img src="./search.png" alt="">
+                    </router-link>
                 </div>
             </div>
             <div class="nav">
