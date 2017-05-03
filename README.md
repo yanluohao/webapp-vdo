@@ -1,5 +1,5 @@
 # vdo
-> 一个基于vue-cli,axios,stylus的勉强算它个webapp吧。
+> 一个基于vue-cli,axios,stylus的勉强算它个webapp吧，初次在router-view上使用transition。
 
 ## 项目简介
 > 一个关于电影的项目吧，和以往不同的是这次的数据来源豆瓣的线上接口。
