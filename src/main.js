@@ -6,6 +6,7 @@ import Router from 'vue-router'
 // import axios from 'axios'
 import index from "./components/index/index.vue";
 import search from "./components/search/search.vue";
+import file from "./file";
 
 Vue.config.productionTip = false;
 Vue.use(Router);
@@ -26,3 +27,11 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+// new Vue({
+//   el:"#file",
+//   template:'<file/>',
+//   components:{
+//     file
+//   }
+// })
